@@ -4,165 +4,483 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="assets/css/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>snap | Welcome</title>
+        <link rel="stylesheet" href="assets/css/app.css">
+                <link rel="stylesheet" href="assets/changes/snap.css">
+                <link rel="stylesheet" href="assets/changes/catalog.css">
+    <link rel="stylesheet" href="assets/design/font-awesome-4.5.0/css/font-awesome.min.css">
+
+
+<!--     <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../design/font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/snap.css" />
+    <link rel="stylesheet" href="../css/catalog.css" /> -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-77915954-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+  
   </head>
+
+
   <body>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation for Sites</h1>
-      </div>
-    </div> 
+
+
+
     
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="callout">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
+    
+    
+    
+    
+    <div class= "headerbar">
+    
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title"></div>
+    </div>
+    <div class="top-bar" id="example-menu">
+      <div class="top-bar-left">
+    
+    
+    
+      </div>
+      <div class="top-bar-right">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text"><a href="https://github.com/intelsdi-x/snap"><i class="fa fa-github-square fa-lg"></i></a></li>
+          <li class="menu-text"><a href="https://intelsdi-x.herokuapp.com/"><i class="fa fa-slack"></i></a></li>
+          <li class="menu-text"><a href="plugins.html">Plugin Catalog</a></li>
+          <li class="menu-text"><a href="download.html">Download</a></li>
+        </ul>
       </div>
     </div>
+    </div>
     
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+    </div>
     
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="primary callout">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
+    
+    
+    
+    
+    
+    
+    
+    <section class = "section-bkg offset-for-headerbar">
+      <div class="large-12 columns"> 
+        <img src="assets/img/snappy7.png">
+      </div>
+    </section>
+    
+    
+    
+    <section class = "overview"> 
+      <div class="row">
+        <div class="large-12 columns center">
+          <br>
+          <h2 class = "center"> A powerful open telemetry framework </h2>
+          <br>
+    
+    
+          <div class = "row">
+          <div class="large-12 columns center">
+            <a class="button" href="https://github.com/intelsdi-x/snap#getting-started">get started</a>
           </div>
+          </div>
+          <br>
+    
+    
+          <h4 class = "subheader"> 
+            We have a vision for the next generation of cloud computing we call Intelligent Resource Orchestration (IRO) that achieves higher density, scale, and agility in a highly automated manner. Getting valuable, accurate, and consumable data from the hardware and software is the first step towards IRO, so we began asking ourselves “What would an operational framework focused on making the consumption of telemetry much easier look like?” Thus snap was born.
+            Learn more about that story <a href="http://nickapedia.com/2015/12/02/what-if-collecting-data-center-telemetry-was-a-snap/">here</a>.</h4>
         </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="primary callout">
-              <p>Six columns</p>
-            </div>
-          </div>
+      </div>
+    
+      <div class = "row">
+        <div class="large-3 columns">
+          <p> </p>
         </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="primary callout">
-              <p>Four columns</p>
-            </div>
-          </div>
+        <div class="large-6 columns">
+          <img src="assets/img/iro.png">
         </div>
+         <div class="large-3 columns">
+          <p> </p>
+        </div>
+      </div>
+    
         
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="input-group">
-                  <input class="input-group-field" type="text" placeholder="input-group" />
-                  <span class="input-group-label">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
+        <div class = "row">
+          <div class="large-1 columns"><p></p></div>
+          <div class="large-10 columns">
+            <h3 class = ""> snap is designed to:</h3>
     
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>          
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+            <h4 class = "subheader">
+              <ul class = "disc"> 
+                <li> Expose a consistent set of telemetry data </li>
+                <li> Simplify telemetry ingestion across storage systems </li>
+                <li> Improve the deployment model, packaging and flexibility for collecting telemetry </li>
+                <li> Allow flexible processing of telemetry data on agent </li>
+                <li> Provide powerful clustered control of telemetry workflows </li>
+                <br>
+            </ul></h4>
+          </div>
+          <div class="large-1 columns"><p></p></div>
         </div>
+    
+    </section> <!-- end overview-->
+    <hr />
+    
+    
+    
+    <section class = "workflow">
+    
+      <div class="row">
+        <br>
+          <div class="large-10 columns">
+            <h3>Simplified Workflow</h3>
+              <h4 class = "subheader">Achieve a single extensible flow starting with data collection at all layers, then transforming the data with basic filtering or adding information for context, and finishing with publishing the processed data to one or more platforms.</h4>
+          </div>
+          <div class = "large-2 columns"></div>
+      </div>
+    
+      <div class = "row">
+        <div class="large-1 columns">
+          <p> </p>
+        </div>
+        <div class="large-10 columns">
+          <img src="assets/img/flow_graphs_included.png" alt = "workflow">
+        </div>
+         <div class="large-1 columns">
+          <p> </p>
+        </div>
+      </div>
+    
+    </section> <!-- end workflow-->
+    <hr />
+    
+    
+    
+    <section class = "section-plugins">
+    
+    <div class="row">
+      <br>
+        <div class = "large-4 columns"></div>
+          <div class="large-8 columns text-right">
+            <h3>Plugin Architecture </h3>
+              <h4 class = "subheader">Allows users to mix and match functionality based on need using three types of plugins: collectors, processors, and publishers. </h4>
+          </div>
+    </div>
+    <br>
+    <br>
+      <div class = "row">
+    
+        <div class="large-4 columns">
+          <div class = "row">
+            <div class = "large-4 columns"> <br> </div>
+              <div class = "large-8 columns">
+                <h4 class = "center subheader"> Collect</h4>
+              <img src="assets/img/collect.png" alt = "collect">
+              <h4 class = "center"></h4>
+              </div> 
+          </div>
+        </div>
+    
+        <div class="large-4 columns">
+          <div class = "row">
+            <div class = "large-2 columns"> <br> </div>
+              <div class = "large-8 columns">
+                <h4 class = "center subheader">Process</h4>
+              <img src="assets/img/process.png" alt= "process">
+              <h4 class = "center"> </h4>
+              
+              </div>
+            <div class = "large-2 columns"> <br> </div>
+          </div>
+        </div>
+    
+        <div class="large-4 columns">
+          <div class = "row">
+              <div class = "large-8 columns">
+                <h4 class = "center subheader">Publish</h4>
+              <img src="assets/img/publish.png" alt = "publish">
+              <h4 class = "center"></h4>
+              
+              </div>
+            <div class = "large-4 columns"> <br> </div>
+          </div>
+        </div>
+      </div>
+    
+    <br><br>
+    
+    
+    
+       
+    
+       
+        <div class = "row">
+          <div class="large-10 columns">
+            <h4 class = ""> Collect telemetry data once via plugins for:</h4>
+    
+            <h5 class = "subheader">
+              <ul class = "disc"> 
+                <li> Bare metal, including Intel specific platform metrics (CPU, NIC, BMC, SMARTS)</li>
+                <li> Operating Environments and existing telemetry (Docker, libvirt, psutil)</li>
+                <li> Application services and adjacencies (Ceph, HAProxy, Etcd, Facter, MySQL, Apache)</li>
+            </ul></h5>
+          </div>
+        </div>
+    
+        <div class = "row">
+          <div class="large-10 columns">
+            <h4 class = ""> Filter, alter or append metadata via plugins for:</h4>
+    
+            <h5 class = "subheader">
+              <ul class = "disc"> 
+                <li> Filtering (Moving Averages)</li>
+                <li> Normalization </li>
+                <li> Encryption for all or part of the data set</li>
+                <li> Injection of metadata </li>
+                <ul>
+                  <li> Tokens</li>
+                  <li> Tenant IDs</li> 
+                </ul>
+            </ul></h5>
+          </div>
+        </div>
+    
+    
+        <div class = "row">
+          <div class="large-10 columns">
+            <h4 class = ""> Publish data via plugins for:</h4>
+    
+            <h5 class = "subheader">
+              <ul class = "disc"> 
+                <li> Dashboard Tools  (Graphite, Grafana, Riemann)</li>
+                <li> Queues and Logs (RabbitMQ, Kafka, File)</li>
+                <li> Databases (PostgreSQL, InfluxDB, OpenTSDB, SAP HANA)</li>
+            </ul></h5>
+          </div>
+        </div>
+    
+    
+    </section> <!-- end plugins-->
+    <hr />
+    
+    
+    
+    
+    
+    
+    
+    <section class = "dynamic_updates">
+      <div class="row">
+        <br>
+          <div class="large-9 columns text-left">
+            <h3>Dynamic Control</h3>
+              <h4 class = "subheader"> Dynamic plugin operations means loading, updating, and unloading plugins without restarting snap or extra configuration management.
+    Dynamic updates ensure simple and secure bug fixes, security patching, and improved accuracy in production. </h4>
+          </div>
+          <div class = "large-3 columns"> <img src="assets/img/snap_catalog.png" alt="plugin catalog"></div>
+      </div>
+    
+    </section> <!-- end dynamic_updates -->
+    <hr />
+    
+    
+    
+    <section class = "scale">
+    
+      <div class="row">
+        <br>
+          <div class = "large-5 columns"> <img src="assets/img/scale.gif" alt="scaling with tribe"></div>
+          <div class="large-7 columns text-right">
+            <h3>Scale with Ease </h3>
+              <h4 class = "subheader"> The clustering feature, <a href="https://github.com/intelsdi-x/snap/blob/master/docs/TRIBE.md">tribe</a>, simplifies cluster configuration management and enables scale with less operational cost. </h4>
+          </div>
+    
+      </div>
+    
+      <div class = "row">
+        <div class="large-7 columns">
+    
+        </div>
+      </div>
+    
+    </section> <!-- end scale-->
+    <br><br>
+    <hr />
+    
+    
+    
+    <section class = "features">
+    
+        <div class="row">
+        <br>
+          <div class="large-9 columns end text-left">
+            <h3> Key Features</h3>
+              <h4 class = "subheader"> Discover more about the key features of snap. </h4>
+          </div>
+      </div>
+    <br>
+    
+    
+    <div class="row">
+        <div class="small-3 columns">
+        <div class="image-wrapper overlay-fade-in">
+          <img src="assets/img/catalog/API_blue.png" />
+          <div class="image-overlay-content">
+            <a href="https://github.com/intelsdi-x/snap/blob/master/docs/REST_API.md">
+              <h2>full control through REST API on snapd</h2></a>
+          </div>
+        </div>
+        </div>
+        <div class="small-3 columns">
+        <div class="image-wrapper overlay-fade-in">
+          <img src="assets/img/catalog/tribe_blue.png" />
+          <div class="image-overlay-content">
+            <a href="https://github.com/intelsdi-x/snap/blob/master/docs/TRIBE.md">
+            <h2>clustering feature for simple and flexible configuration management</h2></a>
+          </div>
+        </div>
+        </div>
+    
+        <div class="small-3 columns end">
+        <div class="image-wrapper overlay-fade-in">
+          <img src="assets/img/catalog/pluginSigning_blue.png" />
+          <div class="image-overlay-content">
+            <a href="https://github.com/intelsdi-x/snap/blob/master/docs/PLUGIN_SIGNING.md">
+              <h2>plugin validation via plugin signing helps secure your data</h2></a>
+          </div>
+        </div>
+        </div>
+    
+    </div>
+    </section>
+    
+    <br>
+    <br>
+    
+    <section class = "section-links">
+    
+    
+          <div class = "row">
+          <div class="large-12 columns center">
+            <a class="button" href="https://github.com/intelsdi-x/snap#getting-started">get started with snap</a>
+          </div>
+          </div>
+    
+    
+    </section><!--end section 4-->
+    <br>
+    
+    <hr />
+    
+    <!-- mini section for main pg-->
+    <div class="row">
+        <br><h2 class="text-center"> All Things Snap </h2><br>
+    
+      <!-- snap grafana-->
+      <div class="large-4 columns text-center">
+        <h3 class = "subheader">A GUI for Snap</h3>
+        <div class="large-10 large-offset-1 end columns">
+        <p class="subheader">Grafana web-based frontend app for Snap created by the raintank team</p></div>
+    
+        <div class="row">
+        <div class="large-8 large-offset-2 end columns">
+        <div class="flex-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lqjoZGacjOU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        </div>
+        </div> 
+    
+        <p> <a href="https://grafana.net/plugins/raintank-snap-app"> Try the app ></a></p>
+        <br> 
+      </div>
+      
+      <!-- vimeo videos -->              
+      <div class="large-4 columns text-center">
+        <h3 class = "subheader">Tutorials for Snap</h3>
+        <div class="large-10 large-offset-1 end columns">
+        <p class="subheader">Video tutorials for Snap including how-tos for running snap and writing tasks.</p></div>
+        <div class="row">
+        <div class="large-8 large-offset-2 end columns">
+        <div class="flex-video vimeo">
+        <iframe src="https://player.vimeo.com/video/156024620" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/156024620">Download and Run the Snap Telemetry Framework</a> from <a href="https://vimeo.com/intelsdi">Intel SDI</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+        </div>
+        </div>
+        </div>
+    <p> <a href="https://vimeo.com/intelsdi/videos">Watch Snap how-tos ></a> </p>   
+    
+        <br>
+      </div>
+      
+      <!-- medium blog posts -->
+      <div class="large-4 columns text-center">
+        <h3 class = "subheader">Blog Posts on Snap</h3>
+        <div class="large-10 large-offset-1 end columns">
+        <p class="subheader">Blog posts about Snap by the SDI team on medium.com.</p></div>
+        <div class="row">
+        <div class="large-8 large-offset-2 end columns">
+            <a href="https://medium.com/intel-sdi">
+              <img src="assets/img/snap_url.png" style="opacity: 1;">
+            </a>
+        </div>
+        </div>
+        <p> <a href="https://medium.com/intel-sdi"> Read blog posts ></a></p>
       </div>
     </div>
     
+    
+    <br>
+    
+    
+    <footer class="footer">
+      <div class="row">
+        <div class="small-12 medium-6 medium-push-6 columns">
+    
+        </div>
+        <div class="small-12 medium-6 medium-pull-6 columns">
+          <p class="logo hide-for-small-only">snap</p> 
+          <p class="footer-links">     
+          <a href="https://github.com/intelsdi-x/snap"><i class="fa fa-github-square"style="color:white"></i></a>
+          <a href="https://intelsdi-x.herokuapp.com/"><i class="fa fa-slack"style="color:white"></i></a>
+          <a href="https://github.com/intelsdi-x/snap/blob/master/docs/PLUGIN_CATALOG.md">plugin catalog</a>
+          <a href ="https://github.com/intelsdi-x/snap#documentation">documentation</a>
+    
+          </p>
+          
+        </div>
+      </div>
+    </footer>
+    
+    
+    <script>
+      $(document).foundation();
+    </script>
+
+
+
+
 
     <script src="assets/js/app.js"></script>
+
+
+    <script src="assets/changes/catalog/catalog.js"></script>
+    <script src="assets/changes/catalog/parsed_plugin_list.js"></script>
+    <script src="assets/changes/catalog/parsed_committed_plugin_list.js"></script>
+    <script src="assets/changes/catalog/wish_list.js"></script>
+    <script src="assets/changes/catalog/toggle_options.js"></script>
+    <script src="assets/changes/catalog/plugins.js"></script>   
+
+
+
   </body>
 </html>
